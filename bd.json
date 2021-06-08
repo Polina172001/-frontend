@@ -1,0 +1,65 @@
+{
+  "formName" : "Тестовое задание для стажёра <<Генератор форм>>",
+  "nameDeveloper" : "Филиппова Полина Сергеевна",
+  "formed" : 2021,
+  "active" : true,
+  "inputs" : [
+    {
+      "label" : "Фамилия",
+      "type" : "text",
+      "id" : "last_name"
+    },
+    {
+      "label" : "Имя",
+      "type" : "text",
+      "id" : "name"
+    },
+    {
+      "label" : "Отчество",
+      "type" : "text",
+      "id" : "patronymic"
+    },
+    {
+      "label" : "Фамилия латиницей",
+      "type" : "text",
+      "id" : "last_name_latin"
+    },
+    {
+      "label" : "Имя латиницей",
+      "type" : "text",
+      "id" : "name_latin"
+    },
+    {
+      "label" : "Возраст",
+      "type" : "number",
+      "id" : "age"
+    },
+    {
+      "label" : "Семейное положение",
+      "type" : "text",
+      "id" : "marital_status"
+    },
+    {
+      "label" : "Образование",
+      "type" : "text",
+      "id" : "education"
+    }
+  ],
+  "contact_information" : "Контактная информация",
+  "contacts" : [
+    {
+      "label" : "Мобильный телефон",
+      "type" : "number",
+      "id" : "mobile"
+    },
+    {
+      "label" : "Электронная почта",
+      "type" : "text",
+      "id" : "mail"
+    }
+  ],
+  "submit": {
+    "url": "www.example.com",
+    "text": "Отправить"
+  }
+}
